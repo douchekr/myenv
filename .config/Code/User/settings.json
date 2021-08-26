@@ -24,7 +24,7 @@
     ],
     "python.languageServer": "Jedi",
     "python.linting.pylintArgs": [
-        "--extension-pkg-whitelist=PySide2",
+        "--extension-pkg-whitelist=PySide2,pydantic",
         "--errors-only"
     ],
     "pyside2-vsc.designer-creator.path": "/home/jaypark/Qt5.14.2/Tools/QtCreator/bin/qtcreator.sh"
