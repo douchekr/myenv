@@ -12,7 +12,7 @@ Do not upgrade to jetpack version above 4.5.1 while using deepstream 5.1 sdk
 
 ## Trouble Shooting
 
-- Fixing gstreamer plugin blacklist
+- Fixing gstreamer plugin blacklists
 
     EGL blah ...
 
