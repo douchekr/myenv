@@ -8,3 +8,6 @@ git config --global user.email 이메일
 ```bash
 git config credential.helper store
 ```
+
+- remote branch 삭제
+git push origin --delete feat_backend 
