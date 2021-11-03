@@ -9,9 +9,7 @@
     ],
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "git.autofetch": true,
-    "C_Cpp.updateChannel": "Insiders",
     "terminal.integrated.tabs.location": "left",
-    "C_Cpp.addNodeAddonIncludePaths": true,
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [
 
@@ -23,6 +21,7 @@
         "/usr/lib/python3/dist-packages/gi/overrides"
     ],
     "python.languageServer": "Jedi",
+    "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=PySide2,pydantic",
         "--errors-only"
