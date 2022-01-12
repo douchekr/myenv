@@ -1,18 +1,12 @@
 {
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "python.defaultInterpreterPath": "/usr/bin/python3",
+        "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "git.autofetch": true,
     "terminal.integrated.tabs.location": "left",
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [
-
         "/usr/lib/python3/dist-packages/gi/overrides"
     ],
     "update.mode": "manual",
@@ -20,11 +14,15 @@
     "python.analysis.extraPaths": [
         "/usr/lib/python3/dist-packages/gi/overrides"
     ],
+    "python.analysis.typeCheckingMode": "basic",
     "python.languageServer": "Jedi",
-    "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=PySide2,pydantic",
-        "--errors-only"
+        "--errors-only",
+        "--generate-members"
     ],
-    "pyside2-vsc.designer-creator.path": "/home/jaypark/Qt5.14.2/Tools/QtCreator/bin/qtcreator.sh"
+    "python.linting.pylintEnabled": true,
+    "python.experiments.enabled": false,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": true
 }
