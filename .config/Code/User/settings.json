@@ -1,6 +1,6 @@
 {
     "editor.suggestSelection": "first",
-        "workbench.editorAssociations": {
+    "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "git.autofetch": true,
@@ -25,5 +25,9 @@
     "python.experiments.enabled": false,
     "git.confirmSync": false,
     "redhat.telemetry.enabled": true,
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google}"
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "C_Cpp.clang_format_style": "{IndentWidth: 4, ColumnLimit: 80}",
+    "C_Cpp.clang_format_fallbackStyle": "Google"
 }
