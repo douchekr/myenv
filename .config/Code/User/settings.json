@@ -1,33 +1,24 @@
 {
     "editor.suggestSelection": "first",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
     "git.autofetch": true,
     "terminal.integrated.tabs.location": "left",
-    "python.autoComplete.addBrackets": true,
-    "python.autoComplete.extraPaths": [
-        "/usr/lib/python3/dist-packages/gi/overrides"
-    ],
     "update.mode": "manual",
-    "python.analysis.completeFunctionParens": true,
-    "python.analysis.extraPaths": [
-        "/usr/lib/python3/dist-packages/gi/overrides"
-    ],
-    "python.analysis.typeCheckingMode": "basic",
-    "python.languageServer": "Jedi",
-    "python.linting.pylintArgs": [
-        "--extension-pkg-whitelist=PySide2,pydantic",
-        "--errors-only",
-        "--generate-members"
-    ],
-    "python.linting.pylintEnabled": true,
-    "python.experiments.enabled": false,
     "git.confirmSync": false,
-    "redhat.telemetry.enabled": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": "explicit"
     },
     "C_Cpp.clang_format_style": "{IndentWidth: 4, ColumnLimit: 80}",
-    "C_Cpp.clang_format_fallbackStyle": "Google"
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "C_Cpp.commentContinuationPatterns": [
+        "/**"
+    ],
+    "doxdocgen.generic.authorEmail": "jaypark@nowsystems.co.kr",
+    "doxdocgen.generic.authorName": "jaypark"
 }
