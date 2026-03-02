@@ -3,6 +3,7 @@
 
 | application | file | original path |
 |-------------|------|---------------|
-| vi | .vimrc | ~/ |
-| screen | .sreeenrc | ~/ |
-| vscode | settings.json | ~/.config/Code/User/ |
+| vi | .vimrc | . |
+| screen | .sreeenrc | . |
+| vscode | settings.json | ~/.config/Code/User |
+| claude | CLAUDE.md | ~/.claude |

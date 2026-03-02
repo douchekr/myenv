@@ -18,7 +18,5 @@
     ],
     "C_Cpp.commentContinuationPatterns": [
         "/**"
-    ],
-    "doxdocgen.generic.authorEmail": "jaypark@nowsystems.co.kr",
-    "doxdocgen.generic.authorName": "jaypark"
+    ]
 }
