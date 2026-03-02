@@ -7,3 +7,5 @@
 | screen | .sreeenrc | . |
 | vscode | settings.json | ~/.config/Code/User |
 | claude | CLAUDE.md | ~/.claude |
+
+run install.sh 
