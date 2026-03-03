@@ -8,6 +8,7 @@
 | screen | .sreeenrc | . |
 | vscode | settings.json | ~/.config/Code/User |
 | claude | CLAUDE.md | ~/.claude |
+| Cline | persona.md | ~/Documents/Cline/Rules |
 
 ### Install or Update
 

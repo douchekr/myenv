@@ -9,6 +9,7 @@ do_init() {
 	rsync -a .screenrc ~/
 	rsync -a .claude/ ~/.claude/
 	rsync -a .config/ ~/.config/
+	rsync -a Documents/ ~/Documents/
 }
 
 do_update() {
@@ -17,6 +18,7 @@ do_update() {
 	rsync -au ~/.screenrc .screenrc 
 	rsync -au --existing ~/.claude/ .claude/
 	rsync -au --existing ~/.config/ .config/
+	rsync -au --existing ~/Documents/ Documents/
 }
 
 case "$CMD" in
