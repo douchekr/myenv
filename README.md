@@ -1,5 +1,6 @@
 ## Setting files for dev
 
+### Configurations
 
 | application | file | original path |
 |-------------|------|---------------|
@@ -8,4 +9,10 @@
 | vscode | settings.json | ~/.config/Code/User |
 | claude | CLAUDE.md | ~/.claude |
 
-run install.sh 
+### Install or Update
+
+run install.sh [ init | update ]
+
+### Docker Compose
+
+docker/ollama.yml compose file for ollama
