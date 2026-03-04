@@ -1,3 +1,4 @@
+name: cross-rpi
 services:
   cross-compiler:
     image: cross-rpi
