@@ -1,0 +1,12 @@
+name: cross-rpi
+services:
+  cross-compiler:
+    image: cross-rpi
+    container_name: rpi-develop-env
+    privileged: true
+    stdin_open: true  # -i 옵션
+    tty: true         # -t 옵션
+    volumes:
+      - ./proj:/home/develop/proj
+    working_dir: /home/develop/proj # (선택사항) 접속 시 바로 프로젝트 폴더로 진입
+    command: /bin/bash
