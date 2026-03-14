@@ -2,7 +2,7 @@
 Description=Codeman WebUI
 
 [Service]
-ExecStart=%h/.local/bin/codeman web
+ExecStart=/usr/bin/node %h/.codeman/app/dist/index.js web
 EnvironmentFile=%h/.config/codeman/env
 Restart=always
 
